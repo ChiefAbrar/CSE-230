@@ -1,0 +1,175 @@
+42.
+Breakdown of the expression:
+The expression is a conjunction of three disjunctions:
+First disjunction: p∨¬q
+Second disjunction:  q∨¬r
+Third disjunction:  r∨¬p
+Case 1: 𝑝, q, and r are all true:
+p is true: p∨¬q becomes T∨¬T=T∨F=T
+q is true: q∨¬r becomes T∨¬T=T∨F=T
+r is true: r∨¬p becomes T∨¬T=T∨F=T
+Since all three disjunctions are true, the entire conjunction is true.
+Case 2:  𝑝, q, r are all false:
+p is false: p∨¬q becomes F∨¬F=F∨T=T
+q is false: q∨¬r becomes F∨¬F=F∨T=T
+r is false: r∨¬p becomes F∨¬F=F∨T=T
+Again, since all three disjunctions are true, the entire conjunction is true.
+Case 3: One or more of p, q, and r have different truth values:
+Without loss of generality, consider the case where:
+p is true, q is false, and 𝑟 is false:
+p∨¬q becomes T∨T=T (true)
+q∨¬r becomes F∨T=T (true)
+r∨¬p becomes F∨F=F (false)
+Since at least one of the disjunctions is false, the entire conjunction is false.
+Conclusion:
+The expression (p∨¬q)∧(q∨¬r)∧(r∨¬p) evaluates to true when p, q, and r have the same truth value (either all true or all false) because all disjunctions will be true. When p, q, and r have different truth values, at least one disjunction will be false, leading the entire conjunction to be false. Thus, the original expression is true if and only if p, q,r share the same truth value.
+
+43.
+Breakdown of the expression:
+The expression consists of two main parts combined by a conjunction (∧):First part: p∨q∨r (at least one of p, q, or r is true) Second part: ¬p∨¬q∨¬r (at least one of p, q, or r is false)
+Case 1: At least one of p, q, or r is true, and at least one is false
+If at least one of the variables is true, then p∨q∨r will evaluate to true. 
+If at least one of the variables is false, then at least one of ¬p, ¬q, or ¬r will be true, making ¬p∨¬q∨¬r evaluate to true as well.
+Since both parts of the conjunction are true in this case, the overall expression (p∨q∨r)∧(¬p∨¬q∨¬r) is true.
+Case 2: All three variables have the same truth value
+1. If all three are true: p∨q∨r evaluates to true because all variables are true. ¬p∨¬q∨¬r evaluates to false because all variables are false, resulting in ¬p, ¬q, and ¬r being false. 
+In this scenario, since the first part is true and the second part is false, the overall expression is false.
+2. If all three are false: p∨q∨r evaluates to false because all variables are false. ¬p∨¬q∨¬r evaluates to true because all variables are false, making ¬p, ¬q, and ¬r true. 
+In this case, since the first part is false and the second part is true, the overall expression is false.
+Conclusion
+Thus, the expression (p∨q∨r)∧(¬p∨¬q∨¬r) is true when at least one of p, q, or r is true and at least one is false because both parts of the conjunction are satisfied. However, when all three variables share the same truth value—whether true or false—one part will be true while the other will be false, resulting in the entire expression being false.
+
+44. (I initially did not understand the question then got it using AI :3, I am attaching the answer below)
+
+45. (same as Exercise-44)
+
+46.
+Initial Value: x=1
+a) if x + 2 = 3 then x := x + 1
+Evaluate the condition: x+2=3
+1+2=3 (True)
+Since the condition is true, execute the assignment: x:=x+1
+x=1+1=2
+Value of x after statement a: 2
+b) if (x + 1 = 3) OR (2x + 2 = 3) then x := x + 1
+Evaluate the condition: 
+x+1=3:
+2=3 (False)
+2x+2=3:
+2(2)+2=4+2=6=3 (False)
+Both parts are false; thus the entire condition is false. The assignment is not executed.
+Value of x after statement b: 2
+c) if (2x + 3 = 5) AND (3x + 4 = 7) then x := x + 1
+Evaluate the condition:
+2x+3=5:
+2(2)+3=4+3=7=5 (False)
+3x+4=7:
+3(2)+4=6+4=10=7 (False)
+Since one part is false, the entire condition is false. The assignment is not executed.
+Value of x after statement c: 2
+d) if (x + 1 = 2) XOR (x + 2 = 3) then x := x + 1
+Evaluate the condition:
+x+1=2:
+2=2 (True)
+x+2=3:
+2+2=4=3 (False)
+The condition is true because XOR (exclusive OR) is true if exactly one of the conditions is true. Thus, execute the assignment: 
+x:=x+1
+x=2+1=3
+Value of x after statement d: 3
+e) if x < 2 then x := x + 1
+Evaluate the condition: x<2
+3<2 (False)
+Since the condition is false, the assignment is not executed.
+Value of x after statement e: 3
+Summary of Values:
+After a): x=2
+After b):x=2
+After c): x=2
+After d): x=3
+After e): x=3
+
+47.
+a) Bitwise OR: 1111111
+Bitwise AND: 0000000
+Bitwise XOR: 1111111
+b) Bitwise OR: 11111010
+Bitwise AND: 10100000
+Bitwise XOR: 01011010
+c) Bitwise OR: 1001111001
+Bitwise AND: 0001000000
+Bitwise XOR: 1000111001
+d) Bitwise OR: 1111111111
+Bitwise AND: 0000000000
+Bitwise XOR: 1111111111
+
+48.
+a) 11000
+b) 01101
+c) 11001
+d) 11011
+
+49.
+Given:
+Truth value of “Fred is happy” = 0.8
+Truth value of “John is happy” = 0.4
+In fuzzy logic, the truth value of the negation of a proposition is calculated as: Negation Truth Value=1−Truth Value of the Proposition
+So,
+Truth value of “Fred is not happy” = 1−0.8=0.2
+Truth value of “John is not happy” = 1−0.4=0.6
+
+50.
+In fuzzy logic, the truth value of the conjunction of two propositions (e.g., "Fred and John are happy") is the minimum of the truth values of the two propositions.
+Truth value of “Fred and John are happy” = min(0.8,0.4)=0.4
+For the statement “Neither Fred nor John is happy,” we consider the conjunction of their negations:
+Truth value of “Fred is not happy” = 0.2
+Truth value of “John is not happy” = 0.6
+Truth value of “Neither Fred nor John is happy” = min(0.2,0.6)=0.2
+
+51.
+Statement 1: “Fred is happy, or John is happy”
+For the statement "Fred is happy, or John is happy," we take the maximum of the truth values of “Fred is happy” and “John is happy”:
+Truth value of “Fred is happy, or John is happy”=max(0.8,0.4)=0.8
+Statement 2: “Fred is not happy, or John is not happy”
+For the statement "Fred is not happy, or John is not happy," we use the negated truth values from Exercise 49:
+Truth value of “Fred is not happy” = 0.2
+Truth value of “John is not happy” = 0.6
+Now, take the maximum of these negated truth values:
+Truth value of “Fred is not happy, or John is not happy”=max(0.2,0.6)=0.6
+
+52.
+No, the assertion "This statement is false" is not a proposition.
+
+In logic, a proposition is a declarative statement that is either true or false, but not both. The statement "This statement is false" is an example of a paradox (specifically, the liar paradox), because if it were true, then it would have to be false (since it asserts it is false), but if it were false, then it would have to be true. This self-referential structure creates a contradiction, meaning it cannot be consistently classified as either true or false.
+
+Thus, because it cannot have a definitive truth value, it does not meet the requirements to be considered a proposition in classical logic.
+
+53.
+a) “Exactly n of the statements in this list are false.”
+The nth statement claims that exactly n statements are false.
+1. If the nth statement is true: This means that there are exactly n false statements in the list. However, since the nth statement itself would also be counted as one of the statements, it cannot be true if it asserts that there are exactly n false statements (as it would then become one of the false statements). Thus, it leads to a contradiction.
+2. If the nth statement is false: If it’s false, then it does not hold that exactly n statements are false. This means that there could be either fewer than n or more than n false statements.
+Based on this reasoning, we can conclude:
+The nth statement cannot be true, leading to the conclusion that the list contains more than or fewer than n false statements, but not exactly n.
+b) “At least n of the statements in this list are false.”
+In this case, the nth statement claims that at least n statements are false.
+1. If the nth statement is true: This means that there are at least n false statements in the list. This could potentially be consistent because if n is within the bounds of the total statements (1 to 100), it allows for a configuration where the nth statement is true, and there are n false statements.
+2. If the nth statement is false: If the nth statement is false, then fewer than n statements are false. This would imply that the number of false statements is less than n, which contradicts the assertion of the nth statement.
+Thus, the conclusion here is: The nth statement can be true if there are at least n false statements. Therefore, this leads to no contradictions if there are indeed at least n false statements.
+c) Assuming the list contains 99 statements and the nth statement is “At least n of the statements in this list are false.”
+Now let's consider the list with 99 statements:
+1. If the 99th statement is true, then there are at least 99 false statements, meaning all statements except one must be false, which is a contradiction because if all but one are false, then the 99th statement itself must also be false.
+2. If the 99th statement is false, it implies there are fewer than 99 false statements, which is consistent because that would mean at most 98 statements can be false.
+Therefore, the conclusion is: The 99th statement cannot be true, and if it’s false, there can be a maximum of 98 false statements in the list, leading to a consistent scenario.
+
+54. Sounds like Russell's paradox(we read that in Grade-09, Higher-Math book)
+The scenario you've described is a classic example of a paradox, specifically known as the barber paradox. Let's break it down to understand the implications:
+
+Definition: The barber shaves those people who do not shave themselves.
+
+Two possibilities arise when considering whether the barber shaves himself:
+
+1. If the barber shaves himself: According to the legend, he can only shave those who do not shave themselves. Therefore, if he shaves himself, he cannot shave himself, which leads to a contradiction.
+2. If the barber does not shave himself: In this case, since he shaves only those who do not shave themselves, it follows that he must shave himself. This again leads to a contradiction.
+Conclusion: In both scenarios—whether the barber shaves himself or does not shave himself—a contradiction arises. Thus, it is impossible for such a barber to exist without creating a logical inconsistency.
+This paradox demonstrates the difficulties that can arise in set theory and self-reference, leading to contradictions similar to those found in Russell's paradox.

@@ -1,0 +1,276 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\title{Propositional Logic Exercises (42-54)}
+\author{Ansari Abrar}
+\date{30 October 2024}
+
+\begin{document}
+
+\maketitle
+\textbf{42.} \\
+
+\textbf{Breakdown of the expression:} The expression is a conjunction of three disjunctions: 
+\begin{itemize}
+    \item First disjunction: \( p \lor \neg q \) 
+    \item Second disjunction: \( q \lor \neg r \) 
+    \item Third disjunction: \( r \lor \neg p \) 
+\end{itemize}
+
+\textbf{Case 1:} \( p \), \( q \), and \( r \) are all true: \\
+
+\( p \) is true: \( p \lor \neg q \) becomes \( T \lor \neg T = T \lor F = T \). \\
+
+\( q \) is true: \( q \lor \neg r \) becomes \( T \lor \neg T = T \lor F = T \). \\
+
+\( r \) is true: \( r \lor \neg p \) becomes \( T \lor \neg T = T \lor F = T \). \\
+
+Since all three disjunctions are true, the entire conjunction is true. \\
+
+\textbf{Case 2:} \( p \), \( q \), and \( r \) are all false: \\
+
+\( p \) is false: \( p \lor \neg q \) becomes \( F \lor \neg F = F \lor T = T \). \\
+
+\( q \) is false: \( q \lor \neg r \) becomes \( F \lor \neg F = F \lor T = T \). \\
+
+\( r \) is false: \( r \lor \neg p \) becomes \( F \lor \neg F = F \lor T = T \). \\
+
+Again, since all three disjunctions are true, the entire conjunction is true. \\
+
+\textbf{Case 3:} One or more of \( p \), \( q \), and \( r \) have different truth values: \\
+
+Without loss of generality, consider the case where \( p \) is true, \( q \) is false, and \( r \) is false: \\
+
+\( p \lor \neg q \) becomes \( T \lor T = T \) (true). \\
+
+\( q \lor \neg r \) becomes \( F \lor T = T \) (true). \\
+
+\( r \lor \neg p \) becomes \( F \lor F = F \) (false). \\
+
+Since at least one of the disjunctions is false, the entire conjunction is false. \\
+
+\textbf{Conclusion:} \\
+
+The expression \( (p \lor \neg q) \land (q \lor \neg r) \land (r \lor \neg p) \) evaluates to true when \( p \), \( q \), and \( r \) have the same truth value (either all true or all false) because all disjunctions will be true. When \( p \), \( q \), and \( r \) have different truth values, at least one disjunction will be false, leading the entire conjunction to be false. Thus, the original expression is true if and only if \( p \), \( q \), and \( r \) share the same truth value. \\
+
+\textbf{43.} \\
+
+\textbf{Breakdown of the expression:} The expression consists of two main parts combined by a conjunction (\( \land \)): 
+\begin{itemize}
+    \item First part: \( p \lor q \lor r \) (at least one of \( p \), \( q \), or \( r \) is true) 
+    \item Second part: \( \neg p \lor \neg q \lor \neg r \) (at least one of \( p \), \( q \), or \( r \) is false) 
+\end{itemize}
+
+\textbf{Case 1:} At least one of \( p \), \( q \), or \( r \) is true, and at least one is false. \\
+
+If at least one of the variables is true, then \( p \lor q \lor r \) will evaluate to true. \\
+
+If at least one of the variables is false, then at least one of \( \neg p \), \( \neg q \), or \( \neg r \) will be true, making \( \neg p \lor \neg q \lor \neg r \) evaluate to true as well. \\
+
+Since both parts of the conjunction are true in this case, the overall expression \( (p \lor q \lor r) \land (\neg p \lor \neg q \lor \neg r) \) is true. \\
+
+\textbf{Case 2:} All three variables have the same truth value. \\
+
+1. If all three are true: \( p \lor q \lor r \) evaluates to true because all variables are true. \( \neg p \lor \neg q \lor \neg r \) evaluates to false because all variables are false, resulting in \( \neg p \), \( \neg q \), and \( \neg r \) being false. \\
+
+In this scenario, since the first part is true and the second part is false, the overall expression is false. \\
+
+2. If all three are false: \( p \lor q \lor r \) evaluates to false because all variables are false. \( \neg p \lor \neg q \lor \neg r \) evaluates to true because all variables are false, making \( \neg p \), \( \neg q \), and \( \neg r \) true. \\
+
+In this case, since the first part is false and the second part is true, the overall expression is false. \\
+
+\textbf{Conclusion:} \\
+
+Thus, the expression \( (p \lor q \lor r) \land (\neg p \lor \neg q \lor \neg r) \) is true when at least one of \( p \), \( q \), or \( r \) is true and at least one is false because both parts of the conjunction are satisfied. However, when all three variables share the same truth value—whether true or false—one part will be true while the other will be false, resulting in the entire expression being false. \\
+\section*{44.}
+(I initially did not understand the question then got it using AI :3, I am attaching the answer below)
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\linewidth]{1.png}
+    \label{}
+\end{figure}
+\section*{45.}
+(same as Exercise-44)
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\linewidth]{2.png}
+\end{figure}
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\linewidth]{3.png}
+\end{figure}
+\section*{46.}
+\textbf{Initial Value:} $x = 1$
+
+\begin{enumerate}
+    \item \textbf{a)} If $x + 2 = 3$ then $x := x + 1$\\
+    Evaluate the condition: $x + 2 = 3$\\
+    $1 + 2 = 3$ (True)\\
+    Since the condition is true, execute the assignment: $x := x + 1$\\
+    $x = 1 + 1 = 2$\\
+    \textbf{Value of $x$ after statement a:} $2$
+    
+    \item \textbf{b)} If $(x + 1 = 3) \lor (2x + 2 = 3)$ then $x := x + 1$\\
+    Evaluate the condition: \\
+    $x + 1 = 3$: \\
+    $2 = 3$ (False)\\
+    $2x + 2 = 3$: \\
+    $2(2) + 2 = 4 + 2 = 6 = 3$ (False)\\
+    Both parts are false; thus the entire condition is false. The assignment is not executed.\\
+    \textbf{Value of $x$ after statement b:} $2$
+    
+    \item \textbf{c)} If $(2x + 3 = 5) \land (3x + 4 = 7)$ then $x := x + 1$\\
+    Evaluate the condition: \\
+    $2x + 3 = 5$: \\
+    $2(2) + 3 = 4 + 3 = 7 = 5$ (False)\\
+    $3x + 4 = 7$: \\
+    $3(2) + 4 = 6 + 4 = 10 = 7$ (False)\\
+    Since one part is false, the entire condition is false. The assignment is not executed.\\
+    \textbf{Value of $x$ after statement c:} $2$
+    
+    \item \textbf{d)} If $(x + 1 = 2) \oplus (x + 2 = 3)$ then $x := x + 1$\\
+    Evaluate the condition: \\
+    $x + 1 = 2$: \\
+    $2 = 2$ (True)\\
+    $x + 2 = 3$: \\
+    $2 + 2 = 4 = 3$ (False)\\
+    The condition is true because XOR (exclusive OR) is true if exactly one of the conditions is true. Thus, execute the assignment: $x := x + 1$\\
+    $x = 2 + 1 = 3$\\
+    \textbf{Value of $x$ after statement d:} $3$
+    
+    \item \textbf{e)} If $x < 2$ then $x := x + 1$\\
+    Evaluate the condition: $x < 2$\\
+    $3 < 2$ (False)\\
+    Since the condition is false, the assignment is not executed.\\
+    \textbf{Value of $x$ after statement e:} $3$
+\end{enumerate}
+
+\textbf{Summary of Values:}\\
+After a): $x = 2$\\
+After b): $x = 2$\\
+After c): $x = 2$\\
+After d): $x = 3$\\
+After e): $x = 3$
+\section*{47}
+\begin{itemize}
+    \item[a)] Bitwise OR: $1111111$ \\
+              Bitwise AND: $0000000$ \\
+              Bitwise XOR: $1111111$
+    \item[b)] Bitwise OR: $11111010$ \\
+              Bitwise AND: $10100000$ \\
+              Bitwise XOR: $01011010$
+    \item[c)] Bitwise OR: $1001111001$ \\
+              Bitwise AND: $0001000000$ \\
+              Bitwise XOR: $1000111001$
+    \item[d)] Bitwise OR: $1111111111$ \\
+              Bitwise AND: $0000000000$ \\
+              Bitwise XOR: $1111111111$
+\end{itemize}
+
+\section*{48}
+\begin{itemize}
+    \item[a)] $11000$
+    \item[b)] $01101$
+    \item[c)] $11001$
+    \item[d)] $11011$
+\end{itemize}
+
+\section*{49}
+Given:
+\begin{itemize}
+    \item Truth value of “Fred is happy” = 0.8
+    \item Truth value of “John is happy” = 0.4
+\end{itemize}
+
+In fuzzy logic, the truth value of the negation of a proposition is calculated as:
+\begin{equation*}
+\text{Negation Truth Value} = 1 - \text{Truth Value of the Proposition}
+\end{equation*}
+
+So,
+\begin{align*}
+\text{Truth value of “Fred is not happy”} &= 1 - 0.8 = 0.2 \\
+\text{Truth value of “John is not happy”} &= 1 - 0.4 = 0.6
+\end{align*}
+
+\section*{50}
+In fuzzy logic, the truth value of the conjunction of two propositions (e.g., "Fred and John are happy") is the minimum of the truth values of the two propositions.
+
+\begin{align*}
+\text{Truth value of “Fred and John are happy”} &= \min(0.8, 0.4) = 0.4 \\
+\text{Truth value of “Neither Fred nor John is happy”} &= \min(0.2, 0.6) = 0.2
+\end{align*}
+
+\section*{51}
+\begin{itemize}
+    \item \textbf{Statement 1:} “Fred is happy, or John is happy” \\
+          For this statement, we take the maximum of the truth values of “Fred is happy” and “John is happy”:
+          \begin{equation*}
+          \text{Truth value of “Fred is happy, or John is happy”} = \max(0.8, 0.4) = 0.8
+          \end{equation*}
+
+    \item \textbf{Statement 2:} “Fred is not happy, or John is not happy” \\
+          For this statement, we use the negated truth values from Exercise 49:
+          \begin{align*}
+          \text{Truth value of “Fred is not happy”} &= 0.2 \\
+          \text{Truth value of “John is not happy”} &= 0.6
+          \end{align*}
+          Now, take the maximum of these negated truth values:
+          \begin{equation*}
+          \text{Truth value of “Fred is not happy, or John is not happy”} = \max(0.2, 0.6) = 0.6
+          \end{equation*}
+\end{itemize}
+
+\section*{52}
+No, the assertion "This statement is false" is not a proposition.
+
+In logic, a proposition is a declarative statement that is either true or false, but not both. The statement "This statement is false" is an example of a paradox (specifically, the liar paradox), because if it were true, then it would have to be false (since it asserts it is false), but if it were false, then it would have to be true. This self-referential structure creates a contradiction, meaning it cannot be consistently classified as either true or false.
+
+Thus, because it cannot have a definitive truth value, it does not meet the requirements to be considered a proposition in classical logic.
+
+\section*{53}
+\begin{itemize}
+    \item[a)] “Exactly $n$ of the statements in this list are false.” \\
+        The $n$th statement claims that exactly $n$ statements are false.
+        \begin{itemize}
+            \item If the $n$th statement is true: This means that there are exactly $n$ false statements in the list. However, since the $n$th statement itself would also be counted as one of the statements, it cannot be true if it asserts that there are exactly $n$ false statements (as it would then become one of the false statements). Thus, it leads to a contradiction.
+            \item If the $n$th statement is false: If it’s false, then it does not hold that exactly $n$ statements are false. This means that there could be either fewer than $n$ or more than $n$ false statements.
+        \end{itemize}
+        Based on this reasoning, we can conclude: The $n$th statement cannot be true, leading to the conclusion that the list contains more than or fewer than $n$ false statements, but not exactly $n$.
+
+    \item[b)] “At least $n$ of the statements in this list are false.” \\
+        In this case, the $n$th statement claims that at least $n$ statements are false.
+        \begin{itemize}
+            \item If the $n$th statement is true: This means that there are at least $n$ false statements in the list. This could potentially be consistent because if $n$ is within the bounds of the total statements (1 to 100), it allows for a configuration where the $n$th statement is true, and there are $n$ false statements.
+            \item If the $n$th statement is false: If the $n$th statement is false, then fewer than $n$ statements are false. This would imply that the number of false statements is less than $n$, which contradicts the assertion of the $n$th statement.
+        \end{itemize}
+        Thus, the conclusion here is: The $n$th statement can be true if there are at least $n$ false statements. Therefore, this leads to no contradictions if there are indeed at least $n$ false statements.
+    
+    \item[c)] Assuming the list contains 99 statements and the $n$th statement is “At least $n$ of the statements in this list are false.” \\
+        Now let's consider the list with 99 statements:
+        \begin{itemize}
+            \item If the 99th statement is true, then there are at least 99 false statements, meaning all statements except one must be false, which is a contradiction because if all but one are false, then the 99th statement itself must also be false.
+            \item If the 99th statement is false, it implies there are fewer than 99 false statements, which is consistent because that would mean at most 98 statements can be false.
+        \end{itemize}
+        Therefore, the conclusion is: The 99th statement cannot be true, and if it’s false, there can be a maximum of 98 false statements in the list, leading to a consistent scenario.
+\end{itemize}
+
+\section*{54}
+Sounds like Russell's paradox(we had already read that in Grade-09, Higher-Math book). This scenario is a classic example of a paradox, specifically known as the barber paradox.
+
+\begin{itemize}
+    \item Definition: The barber shaves those people who do not shave themselves.
+\end{itemize}
+
+Two possibilities arise when considering whether the barber shaves himself:
+
+\begin{enumerate}
+    \item If the barber shaves himself: According to the legend, he can only shave those who do not shave themselves. Therefore, if he shaves himself, he cannot shave himself, which leads to a contradiction.
+    \item If the barber does not shave himself: In this case, since he shaves only those who do not shave themselves, it follows that he must shave himself. This again leads to a contradiction.
+\end{enumerate}
+
+Conclusion: In both scenarios—whether the barber shaves himself or does not shave himself—a contradiction arises. Thus, it is impossible for such a barber to exist without creating a logical inconsistency.
+
+This paradox demonstrates the difficulties that can arise in set theory and self-reference, leading to contradictions similar to those found in Russell's paradox.
+\end{document}

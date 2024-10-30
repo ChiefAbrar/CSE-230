@@ -1,0 +1,252 @@
+Exercises:
+*1. 
+a) Proposition, True
+b) Proposition, False
+c) Proposition, True
+d) Proposition, False
+e) Not Proposition
+
+*2.
+a) Not Proposition
+b) Not Proposition
+c) Proposition, False
+d) Not proposition
+e) Proposition, False
+f) Not proposition
+
+3.
+a) Linda is not younger than Sanjay. -> Linda is older than or the same age as Sanjay.
+b) Mei does not make more money than Isabella. -> Mei makes less than or the same amount of money as Isabella.
+c) Moshe is not taller than Monica. -> Moshe is shorter than or the same height as Monica.
+d) Abby is not richer than Ricardo. -> Abby is poorer than or has the same wealth as Ricardo.
+
+4.
+a) Janice does not have more Facebook friends than Juan. -> Janice has fewer or the same number of Facebook friends as Juan.
+b) Quincy is not smarter than Venkat. -> Quincy is less smart than or equally smart as Venkat.
+c) Zelda does not drive more miles to school than Paola. -> Zelda drives fewer or the same number of miles to school as Paola.
+d) Briana does not sleep longer than Gloria. -> Briana sleeps for a shorter time or the same amount of time as Gloria.
+
+*5.
+a) Mei does not have an MP3 player.
+b) There is pollution in New Jersey.
+**c) 2 + 1 ≠ 3.
+d) The summer in Maine is not hot and sunny.  -> This could mean the summer in Maine is not hot, not sunny, or neither hot nor sunny.
+
+6.
+a) Jennifer and Teja are not friends.
+b) There are not 13 items in a baker’s dozen.
+c) Abby sent 100 or fewer text messages yesterday.
+d) 121 is not a perfect square.
+
+7.
+a) Steve has 100 GB or less free disk space on his laptop.
+b) Zach does not block e-mails and texts from Jennifer. -> Zach allows either e-mails, texts, or both from Jennifer.
+c) 7⋅11⋅13≠999
+d) Diane did not ride her bicycle 100 miles on Sunday. -> Diane rode less than, more than, or did not ride at all on Sunday.
+
+*8.
+a) True
+b) False
+c) False
+d) False
+e) True. (A tautology because the statement is of the form "P if and only if P", where P is "Smartphone B has more RAM than Smartphone A".This is always true regardless of the specific values, as it states a logical equivalence rather than comparing the actual RAM values.)
+Explanation:
+This statement is of the form "P if and only if Q," where:
+P: "Smartphone A has more RAM than Smartphone B."
+Q: "Smartphone B has more RAM than Smartphone A."
+1. If Smartphone A has more RAM than Smartphone B (P is true), then it cannot be true that Smartphone B has more RAM than Smartphone A (Q is false).
+2. If Smartphone B has more RAM than Smartphone A (Q is true), then it cannot be true that Smartphone A has more RAM than Smartphone B (P is false).
+In either case, P and Q cannot both be true at the same time nor can they both be false, because it’s logically impossible for one phone to have more RAM than the other while the reverse is also true.
+In an "if and only if" (biconditional) statement, P if and only if Q is true when P and Q have the same truth value—both true or both false.
+
+For proposition e:
+
+P: "Smartphone A has more RAM than Smartphone B."
+Q: "Smartphone B has more RAM than Smartphone A."
+Because P and Q are logically opposite statements, they can't both be true simultaneously. However, they can both be false at the same time if the two smartphones have equal RAM. In this case, both P and Q would be false, making P if and only if Q is true.
+Summary: Tautologies are true in every case, but if there's generalized(not tautology) if and only if then both must either be true or false. If one part is true and the other is false, the "if and only if" statement is false.
+
+*9.
+a) False
+b) True
+c) True
+d) True -> In logic, a conditional statement with a false antecedent is considered true regardless of the consequent.
+e) True.  -> Both parts of the "if and only if" statement are true.
+
+*10.
+a) I did not buy a lottery ticket this week.
+b) I bought a lottery ticket this week or I won the million-dollar jackpot.
+c) If I bought a lottery ticket this week, then I won the million-dollar jackpot.
+d) I bought a lottery ticket this week, and I won the million-dollar jackpot.
+e) I bought a lottery ticket this week if and only if I won the million-dollar jackpot.
+f) If I did not buy a lottery ticket this week, then I did not win the million-dollar jackpot.
+g) I did not buy a lottery ticket this week, and I did not win the million-dollar jackpot.
+**h) Either I did not buy a lottery ticket this week, or I bought a lottery ticket and won the million-dollar jackpot.
+
+11.
+a) Sharks have not been spotted near the shore.
+b) Swimming at the New Jersey shore is allowed, and sharks have been spotted near the shore.
+c) Swimming at the New Jersey shore is not allowed, or sharks have been spotted near the shore.
+d) If swimming at the New Jersey shore is allowed, then sharks have not been spotted near the shore.
+e) If sharks have not been spotted near the shore, then swimming at the New Jersey shore is allowed.
+f) If swimming at the New Jersey shore is not allowed, then sharks have not been spotted near the shore.
+g) Swimming at the New Jersey shore is allowed if and only if sharks have not been spotted near the shore.
+**h) Swimming at the New Jersey shore is not allowed, and either swimming at the New Jersey shore is allowed or sharks have not been spotted near the shore.
+
+12.
+a) The election is not decided.
+b) The election is decided, or the votes have been counted.
+c) The election is not decided, and the votes have been counted.
+d) If the votes have been counted, then the election is decided.
+e) If the votes have not been counted, then the election is not decided.
+f) If the election is not decided, then the votes have not been counted.
+g) The election is decided if and only if the votes have been counted.
+h) Either the votes have not been counted, or the election is not decided and the votes have been counted.
+
+13.
+a) p ∧ q
+b) p ∧ ¬q
+c) ¬p ∧ ¬q
+**d) p ∨ q
+e) p → q
+f) (p ∨ q) ∧ (p → ¬q) ->AND(∧) operator is used when the word "but" is there. The clause that begins with "if" is usually considered the antecedent in these types of sentences.
+g) p ↔ q
+
+14.
+a) If you have flue, then you miss the final examination.
+b) You do not miss the final examination if and only if you pass the course.
+c) If you miss the final examination, you do not pass the course.
+d) Yoou have the flue, or you miss the final examination, or you pass the course.
+**e) Either if you have the flue, then you do not pass the course, or if you miss the final examination, then you do not pass the course.
+f) Either you have the flue and you miss the final examination, or you do not miss the final examination and you pass the course.
+
+15.
+a) ¬p
+b) p ∧ ¬q
+c) p → q
+d) ¬p → ¬q
+e) q ∧ ¬p
+f) q ∧ ¬p
+g) q → p
+
+*16.
+a) r ∧ ¬q
+b) p ∧ q ∧ r
+c) r → p ->This means that if you get an A in the class, then you must have gotten an A on the final.
+**d) p ∧ ¬q ∧ r ->In logical terms, "nevertheless" implies a  conjunction symbol.
+**e) (p ∧ q) → r ->(When we say 𝐴 implies that B (written A⟹B), we are stating that if A is true, then B must also be true. This is essentially the same as saying A is a sufficient condition for B.) If 𝐴 implies B, then A is a sufficient condition for B. Example: Sufficient Condition: "If it rains (A), then the ground will be wet (B)." Here, "it rains" is a sufficient condition for "the ground will be wet." You can express the same relationship by saying, "If it rains, this implies that the ground will be wet."
+**f) r ↔ (q ∨ p)
+
+17.
+a) r ∧ ¬p
+b) ¬p ∧ q ∧ r
+**c) r → (q ↔ ¬p)
+d) ¬q ∧ ¬p ∧ r
+e) q → (¬r ∧ ¬p) ->Think it using "if then". This means that if hiking is safe, then it must be true that berries are not ripe and grizzly bears have not been seen.
+f) (p ∧ r) → ¬q -> Again replace whenever with if and rephrase the sentence. This states that if both conditions are true, then hiking is not safe.
+
+18. For Biconditionals both sides are need to be true. If LHS=RHS then true else false.
+a) True
+b) False
+c) True ->(Left Side: 1+1=3 is false.)(Right Side: "Monkeys can fly" is generally considered false.)(Conclusion: Both sides are false, so the biconditional is true.)
+d) False
+
+*19. Only if the clause with the "if"-stament is true then the conclusion(final) is false. In other cases, it is true. A false premise makes the entire conditional true, regardless of the conclusion. (A premise is the sentence with the "if" statement and the conclusion is the other one.)
+a) False
+b) True
+c) True
+d) True
+
+20.
+a) True ->Premise is false so the statement becomes true.(If premise is false, then no need to look at the conclusion. The answer is then True)
+b) True
+c) False ->A true premise and a false conclusion make this conditional false.
+d) True -> Both the premise and conclusion are true, so the conditional is true.
+
+*21. If both statements in a sentence can be true simutaneously then it is inclusive or otherwise it is exclusive or.
+a) Inclusive or -> This suggests that you can have either coffee or tea, or both.
+b) Inclusive or -> The requirement could be satisfied by either having three digits, eight characters, or both.
+c) Exclusive or -> This implies that you must have taken either one course or the other, but not both, as typically, course prerequisites require one specific condition to be met.
+d) Inclusive or ->This indicates that payment can be made in either currency, or both currencies may be accepted together. 
+
+*22.
+a) Inclusive or ->This implies that you can have experience in either C++ or Java, or both.
+b) Inclusive or ->This suggests that you can have either soup or salad, or both, as part of lunch.
+c) Exclusive or ->This indicates that you must present either a passport or a voter registration card to enter the country, but not both.
+d) Exclusive or ->This phrase suggests a strict dichotomy: you must publish academic work to maintain your position or face the consequences (like losing your job). The implication is that failing to publish leads to a negative outcome, so you must do one or the other. (While "Publish or perish" may not follow the standard format of a typical propositional statement (like "It is raining"), it conveys a logical relationship and thus qualifies as a propositional statement in a broader sense.
+
+*23.
+a) Intended Meaning: Inclusive or is likely intended here, as prerequisites usually allow for flexibility (you can take either course). Inclusive Or: This means that to enroll in discrete mathematics, it is sufficient to have taken either calculus or a course in computer science, or both. In this case, taking both courses would meet the prerequisite. Exclusive Or: This would imply that you can only fulfill the requirement by taking either calculus or a course in computer science, but not both. Taking both would disqualify you from taking discrete mathematics.
+b) Intended Meaning: Exclusive or is likely intended here, as promotional offers typically do not allow for receiving both incentives. Inclusive Or: This means that you can choose to receive the $2000 back in cash, or you can opt for the 2% car loan, or you could potentially receive both offers. Exclusive Or: This implies that you can only choose one option; you either get the $2000 back or the 2% loan, but not both at the same time.
+c) Intended Meaning: Exclusive or is likely intended here, as menus usually require selecting one of the specific options. Inclusive Or: This would mean you could choose two items from column A, three items from column B, or a combination of both. Exclusive Or: This suggests that you must choose either two items from column A or three items from column B, but not both.
+d) Intended Meaning: Inclusive or is likely intended here, as it is common for closures to depend on multiple severe weather conditions. Inclusive Or: This means the school will be closed if either condition is met, or if both conditions happen simultaneously (more than two feet of snow and a wind chill below −100 °F). Exclusive Or: This would imply that the school will only close for one condition at a time; if one condition is met, the other must not be met for the school to be closed.
+
+24.
+a) If you wash the boss's car, then you will get promoted. (the clause with the word "necessary" should be the clause with "if" statement) (Washing the boss's car is necessary for promotion.)
+b) If the winds are from the south, then a spring thaw will occur. (South winds imply a spring thaw.)
+c) If you bought the computer less than a year ago, then the warranty is good. (Buying the computer within a year is sufficient for a valid warranty.) ->The sufficient condition should be the one with "if" statement.
+d) If Willy cheats, then he gets caught. ->Replace "whenever" with "if".
+e) If you pay a subscription fee, then you can access the website.
+f) If you know the right people, then you will get elected.
+g) If Carol is on a boat, then she gets seasick.
+
+25.
+a) If the wind blows from the northeast, then it snows.
+b) If it stays warm for a week, then the apple trees will bloom.
+c) If the Pistons win the championship, then they beat the Lakers. ->The clause before the "implies that" is the "if" clause.
+**d) If you get to the top of Long's Peak, then you have walked eight miles.
+**e) If you are world famous, then you get tenure as a professor. ->The clause with the word "sufficient" is the "if" clause.
+f) If you drive more than 400 miles, then you will need to buy gasoline.
+**g) If your guarantee is good, then you bought your CD player less than 90 days ago.***
+**h) If the water is not too cold, then Jan will go swimming. ->If there is the word "unless" then "not" is added with that clause and make it the if statement.
+i) If people believe in science, then we will have a future. ->Replace "provided that" with "if".
+
+26.
+a) If you send me an e-mail message, then I will remember to send you the address.
+b) If you were born in the United States, then you are a citizen of this country.
+c) If you keep your textbook, then it will be a useful reference in your future courses.
+d) If the Red Wings’ goalie plays well, then the Red Wings will win the Stanley Cup.
+e) If you get the job, then you had the best credentials.
+f) If there is a storm, then the beach erodes.
+g) If you log on to the server, then you have a valid password.
+h) If you do not begin your climb too late, then you will reach the summit.
+i) If you are among the first 100 customers tomorrow, then you will get a free ice cream cone.
+
+27.
+a) You buy an ice cream cone if and only if it is hot outside. ->(Buying ice cream and it being hot are mutually dependent.)
+b) You will win the contest if and only if you have the only winning ticket.
+c) You get promoted if and only if you have connections.
+d) Your mind will decay if and only if you watch television.
+e) The trains run late if and only if I take them.
+
+28.
+a) You will get A in this course if and only if you learn how to solve discrete mathematics problems.
+b) You will be informed if and only if you read the newspaper every day. ->(Being informed and reading the newspaper daily are interdependent.)
+c) It rains if and only if it is a weekend day.
+d) You can see the wizard if and only if the wizard is not in. ->(Being able to see the wizard depends entirely on his absence.)
+e) My airplane flight is late if and only if I have to catch a connecting flight.
+
+*29.
+a) Converse: If I ski tomorrow, then it snowed today. 
+Contrapositive: If I do not ski tomorrow, then it did not snow today. / If I will not ski tomorrow, then it does not snow today.
+Inverse: If it does not snow today, I will not ski tomorrow.
+b) Converse: If I come to class, then there is going to be a quiz.
+Contrapositive: If I do not come to class, then there is not going to be a quiz.
+Inverse: If there is not going to be a quiz, then I do not come to class.
+**c) Rephrase: If a positive integer is a prime, then it has no divisors other than 1 and itself.
+Converse: If a positive integer has no divisors other than 1 and itself, then it is prime.
+Contrapositive: If a positive integer has divisors other than 1 and itself, then it is not prime.
+Inverse: If a positive integer is not a prime, then it has divisors other then 1 and itself.
+
+30.
+a) Converse: If I stay at home, then it snows tonight.
+Inverse: If I do not stay at home, then it does not snow tonight.
+Contrapositive: If it does not snow tonight, then I will not stay at home. (Always write Inverse one before contrapositive, it's easier to change like this.)
+b) Rephrase: If it is a sunny summer day, then I go to the beach.
+Converse: If I go to the beach, then it is a sunny summer day.
+Inverse: If it is not a sunny summer day, then I do not go to the beach.
+Contrapositive: If I do not go to the beach, then it is not a sunny summer day.
+c) Rephrase: If I stay up late, then I sleep until noon.
+Converse: If I sleep until noon, then I stayed up late.(better) / If I sleep until noon, then I stay up late.
+Inverse: If I do not stay up late, then I do not sleep until noon.
+Contrapositive: If I do not sleep until noon, then I did not stay up late.
